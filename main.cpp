@@ -43,7 +43,7 @@ int main() {
     // How many squares can fit inside of one circle
     squaresInCircle = circleArea / squareArea;
 
-    // Results that are  properly labeled
+    // Results that are properly labeled
     std::cout << "The amount of squares that can fit in one circle is: ";
     std::cout << std::fixed << std::setprecision(2) << squaresInCircle << std::endl;
 
